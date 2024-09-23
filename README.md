@@ -14,9 +14,9 @@
 
 
 ## Projeto :computer:
+https://github.com/user-attachments/assets/d342cd3f-c4d2-4e69-8875-528105979b5e
 
-Projeto
-
+Projeto: Desafio proposto ao final do primeiro módulo de Fundamentos, onde o objetivo é criar uma interface capaz de gerenciar uma lista de tarefas. A interface deve permitir criar novas tarefas, marcá-las como concluídas, além de possibilitar a sua exclusão.
 
 ## Como o projeto foi criado 
 
