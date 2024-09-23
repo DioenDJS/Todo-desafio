@@ -1,0 +1,55 @@
+
+
+.listaTarefas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray-300);
+    padding-top: 4rem;
+}
+
+.listaTarefas svg {
+    margin-bottom: 1rem;
+}
+
+.listaItem {
+    display: flex;
+    justify-content: space-between;
+    align-items:start;
+    padding: 1rem 3.375rem;
+    background: var(--gray-400);
+    border-radius: 8px;
+    height: 4.5rem;
+    margin-top: 1rem;
+}
+
+.listaItem span {
+    width: 35rem;
+    color: var(--gray-100);
+}
+.textDecorator{
+    text-decoration: line-through;
+
+}
+.circle {
+    color: var(--blue);
+}
+
+.buttonTrash{
+    background: transparent;
+    border: 0;
+    color: var(--gray-300);
+    cursor: pointer;
+}
+
+.buttonTrash:hover{
+    color: var(--danger);
+}
+
+.buttonCircle {
+    color: var(--blue);
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}

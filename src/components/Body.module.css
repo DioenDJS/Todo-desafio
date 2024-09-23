@@ -1,0 +1,72 @@
+.article {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.input {
+   background: var(--gray-500);
+   border: 0;
+   width: 39.875rem;
+   height: 3.375rem;
+   border-radius: 8px;
+   padding: 1rem 1rem;
+   color: var(--gray-300);
+}
+form {
+   display: flex;
+   align-items: center;
+   margin-top: calc(0px - 1.6875rem);
+}
+
+form button {
+   background: var(--blue-dark);
+   color: var(--gray-100);
+   width: 5.625rem;
+   height: 3.25rem;
+   border-radius: 8px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border: 0;
+   margin-left: 0.5rem;
+   
+}
+
+form button svg {
+   margin-left: 0.25rem;
+}
+
+.task {
+   margin-top: 4rem;
+   width: 46rem;
+}
+
+.top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 0;
+   border-bottom: 1px;
+   border-color: var(--gray-300);
+   border-style: solid;
+   padding: 1.7rem 0;
+}
+
+.tarefasCriadas {
+   color: var(--blue);
+}
+
+.concluidas {
+   color: var(--purple-dark);
+}
+
+.top strong span {
+   color: var(--gray-200);
+   background: var(--gray-400);
+   padding: 0.15rem 0.55rem;
+   height: 5rem;
+   border-radius: 12px;
+   margin-left:0.50rem ;
+}
